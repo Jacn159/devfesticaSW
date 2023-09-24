@@ -2,9 +2,12 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
+
   max-width: 75rem;
   margin: auto;
   align-items: center;
+  position: static;
+  padding-top: 1.5rem;
 }
 .navegador__logo {
   padding: 1rem;
@@ -13,7 +16,7 @@
 .navegador__lista {
   padding: 1rem;
   width: 50%;
-
+  gap: 0.5rem;
   display: flex;
   justify-content: space-between;
   color: white;
@@ -21,10 +24,11 @@
 }
 .navegador__lista__item {
   border-radius: 0.5rem;
-  padding: 0.8rem 1.5rem;
+  padding: 1.2rem 1.5rem;
   transition: 0.2s ease-in-out;
   cursor: pointer;
   font-family: "Product Sans", sans-serif;
+  font-size: 1.2rem;
 }
 .navegador__lista__item:hover {
   background-color: rgba(117, 118, 118, 0.192);
@@ -36,7 +40,7 @@
 .navegador__lista__item--active {
   background-color: #fdd46d;
   border-radius: 0.5rem;
-  padding: 0.8rem 1.5rem;
+  padding: 1.2rem 1.5rem;
   color: black;
   cursor: pointer;
   transition: 0.2s ease-in-out;
