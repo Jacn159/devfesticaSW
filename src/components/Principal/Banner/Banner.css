@@ -1,0 +1,107 @@
+.banner {
+  width: 100%;
+  max-width: 75rem;
+  position: relative;
+  margin: auto;
+  margin-top: 7rem;
+}
+.banner__title {
+  font-size: 10rem;
+  text-wrap: wrap;
+  width: 40rem;
+  font-family: "Product Sans", sans-serif;
+  color: #e8ebed;
+}
+.banner__text {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  color: #e8ebed;
+  width: 40rem;
+  font-family: "Product Sans", sans-serif;
+}
+
+.banner__buttons__item--first {
+  position: absolute;
+  top: 2.5rem;
+  left: 8.2rem;
+  font-size: 1.4rem;
+  background-color: #fdd46d;
+  padding: 0.2rem 1.5rem;
+  border-radius: 5rem;
+  font-family: "Product Sans", sans-serif;
+  transition: transform 0.2s ease; /* Agregar una transición suave */
+}
+.banner__buttons {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.banner__buttons__item--second {
+  position: absolute;
+  top: 12rem;
+  left: 17.7rem;
+  font-size: 1.4rem;
+  background-color: #88b4f7;
+  padding: 0.2rem 1.5rem;
+  border-radius: 5rem;
+  font-family: "Product Sans", sans-serif;
+  transition: transform 0.2s ease; /* Agregar una transición suave */
+}
+.banner__buttons__item__efect {
+  position: absolute;
+  top: 15.2rem;
+  left: 30rem;
+  width: auto;
+  box-sizing: content-box;
+  height: fit-content;
+  padding: 1.5rem 0.5rem;
+  border-radius: 2rem;
+  border: 1px solid;
+  color: #e8ebed;
+
+  animation: pulseBorder 2010ms infinite; /* Aplicar la animación "pulseBorder" infinitamente */
+}
+.banner__buttons__item__efect--third {
+  border: 1px solid transparent; /* Establecer un borde transparente inicialmente */
+  padding: 1rem 2rem;
+  font-size: 1.4rem;
+  border: 1px solid white;
+  border-radius: 2rem;
+  color: #e8ebed;
+  font-family: "Product Sans", sans-serif;
+  font-weight: 900;
+}
+
+@keyframes pulseBorder {
+  0% {
+    border-color: transparent; /* Comienza con un borde transparente */
+  }
+  50% {
+    border-color: #e8ebed; /* Luego, muestra el borde */
+  }
+  100% {
+    border-color: transparent; /* Finaliza con un borde transparente nuevamente */
+  }
+}
+
+.banner__buttons__item__efect--third:hover {
+  background-color: #e8ebed;
+  color: black;
+  transition: 0.2s ease-in-out;
+  animation: none; /* Detiene la animación al hacer hover */
+}
+
+.banner__buttons__item--third:hover {
+  background-color: #e8ebed;
+  color: black;
+  transition: 0.2s ease-in-out;
+}
+.banner__buttons:hover .banner__buttons__item--first {
+  transform: translateX(20px); /* Mueve ligeramente hacia la derecha */
+}
+
+.banner__buttons:hover .banner__buttons__item--second {
+  transform: translateX(-20px); /* Mueve ligeramente hacia la izquierda */
+}
