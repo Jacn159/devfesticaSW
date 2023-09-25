@@ -1,0 +1,25 @@
+.sponsors {
+  color: white;
+  font-family: "Product Sans", sans-serif;
+  width: 100%;
+  max-width: 75rem;
+  margin: auto;
+  padding-top: 7rem;
+}
+.sponsors__titulo {
+  font-size: 5rem;
+  text-align: center;
+}
+.sponsors__texto {
+  margin-top: 2rem;
+  text-align: center;
+  color: #c0c2c5;
+}
+.sponsors__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 5rem;
+}

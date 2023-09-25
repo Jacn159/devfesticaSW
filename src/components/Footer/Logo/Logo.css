@@ -1,0 +1,10 @@
+.logo {
+  width: 30%;
+}
+
+.logo__texto {
+  margin-top: 2rem;
+  line-height: 1.5rem;
+  font-size: 0.8rem;
+  opacity: 0.6;
+}

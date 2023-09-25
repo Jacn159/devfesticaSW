@@ -1,0 +1,33 @@
+.cardsponsor {
+  background-color: #2b2c2f;
+  width: 20%;
+  height: 12rem;
+  border-radius: 1rem;
+  display: flex;
+  position: relative;
+}
+.cardsponsor__click {
+  /* background-color: red; */
+  margin: auto;
+  padding: 5rem 2rem;
+  border-radius: 1rem;
+}
+.cardsponsor__imagen {
+  width: 11rem;
+  margin: auto;
+  opacity: 0.4;
+  transition: 0.4s ease-in-out;
+}
+.cardsponsor__click:hover .cardsponsor__imagen {
+  opacity: 1;
+}
+.cardsponsor__type {
+  position: absolute;
+  top: 85%;
+  left: 26%;
+  background-color: #1f2023;
+  padding: 0.8rem 1.8rem;
+  border-radius: 5rem;
+  border: 1px solid #88b4f7;
+  color: #88b4f7;
+}

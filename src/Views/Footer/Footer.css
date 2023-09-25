@@ -1,0 +1,23 @@
+.footer {
+  color: white;
+  font-family: "Product Sans", sans-serif;
+  width: 100%;
+  max-width: 75rem;
+  margin: auto;
+  padding-top: 7rem;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 8rem;
+}
+.mensajeprefooter {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 14rem 0rem;
+}
+.mensajeprefooter__titulo {
+  color: white;
+  font-size: 9rem;
+  font-family: "Product Sans", sans-serif;
+}

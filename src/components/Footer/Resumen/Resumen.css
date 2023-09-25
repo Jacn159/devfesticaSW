@@ -1,0 +1,11 @@
+.resumen {
+  width: 30%;
+}
+.resumen__titulo {
+  font-size: 1.9rem;
+}
+.resumen__lista {
+  margin-top: 2rem;
+  opacity: 0.6;
+  line-height: 2rem;
+}

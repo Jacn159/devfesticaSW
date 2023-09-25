@@ -3,13 +3,15 @@ import "./Header.css";
 
 const Header = () => {
   const lista = [
-    { nombre: "Inicio", direccion: "#inicio" },
+    { nombre: "Acerca", direccion: "#acerca" },
     { nombre: "Speakers", direccion: "#speakers" },
     { nombre: "Calendario", direccion: "#calendario" },
     { nombre: "Organizadores", direccion: "#organizadores" },
   ];
   const [isScrolled, setIsScrolled] = useState(false);
-
+  const redirectToInicio = () => {
+    window.location.href = "#inicio";
+  };
   useEffect(() => {
     // Función para manejar el evento de scroll
     const handleScroll = () => {
@@ -38,7 +40,12 @@ const Header = () => {
             : "navegador__efect--desactive"
         }`}
       >
-        <img src="./img/logo.svg" alt="" className="navegador__logo" />
+        <img
+          src="./img/logo.svg"
+          alt=""
+          className="navegador__logo"
+          onClick={redirectToInicio}
+        />
         <ul className="navegador__lista">
           {lista.map((dato, index) => {
             return (
@@ -49,7 +56,11 @@ const Header = () => {
               </li>
             );
           })}
-          <li className="navegador__lista__item--active">Sponsors</li>
+          <li className="navegador__lista__item--active">
+            <a href="#sponsors" className="navegador__lista__item--active__a">
+              Sponsors
+            </a>
+          </li>
         </ul>
       </nav>
       {isScrolled ? (

@@ -78,15 +78,16 @@
 }
 
 .navegador__lista__item--active {
-  background-color: #fdd46d;
-  border-radius: 0.5rem;
-  padding: 1.2rem 1.5rem;
   color: black;
-  cursor: pointer;
-  transition: 0.2s ease-in-out;
   font-family: "Product Sans", sans-serif;
 }
-.navegador__lista__item--active:hover {
+.navegador__lista__item--active__a:hover {
   background-color: #d8b157;
+  transition: 0.2s ease-in-out;
+}
+.navegador__lista__item--active__a {
+  padding: 1.2rem 1.5rem;
+  background-color: #fdd46d;
+  border-radius: 0.5rem;
   transition: 0.2s ease-in-out;
 }
