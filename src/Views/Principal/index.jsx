@@ -6,7 +6,7 @@ function Principal() {
     <>
       <div className="principal__filtro"></div>
       <div className="principal__fondo"></div>
-      <div className="principal__contenedor">
+      <div className="principal__contenedor" id="inicio">
         <Header></Header>
         <Banner></Banner>
       </div>

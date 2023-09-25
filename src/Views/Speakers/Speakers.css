@@ -2,6 +2,7 @@
   width: 100%;
   max-width: 75rem;
   margin: auto;
+  padding-top: 7rem;
 }
 .speakers__titulo {
   font-size: 5rem;
