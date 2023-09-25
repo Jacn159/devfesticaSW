@@ -1,0 +1,48 @@
+/* CSS Puro */
+.container {
+  margin-right: auto;
+  margin-left: auto; /* 4 en Tailwind CSS se traduce a 1rem */
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  /* Estilos para pantallas medianas y más grandes (md y superior) */
+  .container {
+    align-items: center; /* md:items-center en Tailwind CSS */
+  }
+}
+
+/* Efectos de animación */
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 500ms linear 0s, transform 500ms linear 0s;
+}
+
+.fade-bottom.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.ubicacion {
+  width: 100%;
+  max-width: 75rem;
+  margin: auto;
+  padding-top: 2rem;
+}
+.ubicacion__titulo {
+  font-size: 5rem;
+  font-family: "Product Sans", sans-serif;
+  color: white;
+  text-align: center;
+}
+.ubicacion__container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: rem;
+  padding-bottom: 5rem;
+}

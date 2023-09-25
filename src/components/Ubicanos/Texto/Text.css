@@ -1,0 +1,24 @@
+/* CSS Puro */
+.font__container {
+  font-family: '"Product Sans"', sans-serif; /* Reemplaza 'TuFuente' con la fuente deseada */
+  font-size: 2.25rem;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  /* Estilos para pantallas medianas y más grandes (md y superior) */
+  .md\:texto__md {
+    font-size: 2.5rem; /* El valor md:text-5xl en Tailwind CSS se traduce a 2.5rem en media queries */
+  }
+}
+
+@media (min-width: 1024px) {
+  /* Estilos para pantallas grandes (lg y superior) */
+  .lg\:texto__lg {
+    font-size: 4rem; /* El valor lg:text-6.5xl en Tailwind CSS se traduce a 4rem en media queries */
+  }
+}
+
+.md\:text__center {
+  text-align: center; /* md:text-center en Tailwind CSS se traduce a text-align: center en media queries */
+}
