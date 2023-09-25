@@ -1,0 +1,20 @@
+/* Estilos para el título */
+.custom__text {
+  font-size: 1.5rem; /* Equivalente a text-2xl en Tailwind */
+  line-height: 1em;
+  color: white;
+  font-family: "Product Sans", sans-serif;
+}
+
+/* Estilos para el margen superior */
+.custom__text__opacity {
+  margin-top: 1rem; /* Equivalente a mt-4 en Tailwind */
+  opacity: 0.7; /* Equivalente a opacity-70 en Tailwind */
+  line-height: 1.3em;
+  color: white;
+  font-family: "Product Sans", sans-serif;
+}
+
+.mt__8 {
+  margin-top: 2rem/* 32px */;
+}

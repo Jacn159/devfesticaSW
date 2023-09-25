@@ -1,0 +1,29 @@
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.py-12 {
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+}
+
+/* Establece el contenedor principal para centrar su contenido */
+.page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh; /* Asegura que ocupe al menos toda la altura de la ventana */
+}
+
+.flex {
+  display: flex;
+}
+.flex-col {
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  .md\:justify-center {
+    justify-content: center;
+  }
+}
