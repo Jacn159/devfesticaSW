@@ -1,0 +1,11 @@
+.width__img {
+  width: 40%;
+}
+
+
+@media (min-width: 768px) {
+  .md__img {
+    width: 250px;
+  }
+}
+
