@@ -36,6 +36,7 @@
   font-family: "Product Sans", sans-serif;
   color: white;
   text-align: center;
+  padding-bottom: 2rem;
 }
 .ubicacion__container {
   display: flex;

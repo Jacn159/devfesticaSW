@@ -10,9 +10,9 @@ function App() {
       <Principal></Principal>
       <Speakers></Speakers>
       <Sponsors></Sponsors>
-      <Footer></Footer>
       <Acerca></Acerca>
       <Ubicanos></Ubicanos>
+      <Footer></Footer>
     </>
   );
 }
