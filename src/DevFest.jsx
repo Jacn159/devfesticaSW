@@ -7,10 +7,10 @@ function App() {
   return (
     <>
       <Principal></Principal>
+      <Acerca></Acerca>
       <Speakers></Speakers>
       <Sponsors></Sponsors>
       <Footer></Footer>
-      <Acerca></Acerca>
     </>
   );
 }
