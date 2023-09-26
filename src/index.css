@@ -3,7 +3,7 @@ body {
 }
 /* Hacer el fondo transparente */
 ::-webkit-scrollbar {
-  background-color: #1E1D1D;
+  background-color: #1e1d1d;
 }
 
 /* Cambiar el color del thumb (la barra de desplazamiento) a negro */
@@ -12,3 +12,6 @@ body {
   border-radius: 2rem;
 }
 
+.contenedor__efecto {
+  padding-top: 7rem;
+}

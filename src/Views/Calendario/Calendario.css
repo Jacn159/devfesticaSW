@@ -1,15 +1,15 @@
-.speakers {
+.calendario {
   width: 100%;
   max-width: 75rem;
   margin: auto;
 }
-.speakers__titulo {
+.calendario__titulo {
   font-size: 5rem;
   font-family: "Product Sans", sans-serif;
   color: white;
   text-align: center;
 }
-.speakers__container {
+.calendario__container {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
