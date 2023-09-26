@@ -3,6 +3,7 @@ import Principal from "./Views/Principal";
 import Speakers from "./Views/Speakers";
 import Sponsors from "./Views/Sponsors";
 import Acerca from "./Views/Acerca";
+import Ubicanos from "./Views/Ubicanos"
 function App() {
   return (
     <>
@@ -10,6 +11,8 @@ function App() {
       <Acerca></Acerca>
       <Speakers></Speakers>
       <Sponsors></Sponsors>
+      <Acerca></Acerca>
+      <Ubicanos></Ubicanos>
       <Footer></Footer>
     </>
   );
