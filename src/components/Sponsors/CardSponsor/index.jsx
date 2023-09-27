@@ -7,7 +7,7 @@ const CardSponsor = () => {
         className="cardsponsor__click"
         target="_blank"
       >
-        <img src="./img/descargar.svg" alt="" className="cardsponsor__imagen" />
+      <img src="./img/descargar.svg" alt="" className="cardsponsor__imagen" />
       </a>
       <div className="cardsponsor__type">General</div>
     </div>

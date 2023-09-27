@@ -13,5 +13,6 @@ body {
 }
 
 .contenedor__efecto {
-  padding-top: 7rem;
+  padding-top: 6rem;
+  margin-top: 6rem;
 }

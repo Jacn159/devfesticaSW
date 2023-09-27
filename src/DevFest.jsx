@@ -18,10 +18,12 @@ function App() {
     });
   }, []);
   const componentes = [
+    { id: "acerca", componente: <Acerca /> },
     { id: "speakers", componente: <Speakers /> },
+
     { id: "calendario", componente: <Calendario /> },
     { id: "sponsors", componente: <Sponsors /> },
-    { id: "ubicanos", componente: <Ubicanos /> },
+    { id: "lugar", componente: <Ubicanos /> },
   ];
 
   return (

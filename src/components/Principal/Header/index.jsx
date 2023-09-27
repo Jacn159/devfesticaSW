@@ -6,7 +6,7 @@ const Header = () => {
     { nombre: "Acerca", direccion: "#acerca" },
     { nombre: "Speakers", direccion: "#speakers" },
     { nombre: "Calendario", direccion: "#calendario" },
-    { nombre: "Organizadores", direccion: "#organizadores" },
+    { nombre: "Lugar", direccion: "#lugar" },
   ];
   const [isScrolled, setIsScrolled] = useState(false);
   const redirectToInicio = () => {

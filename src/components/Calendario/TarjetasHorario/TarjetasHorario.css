@@ -1,0 +1,7 @@
+.tarjetashorario {
+  width: 65rem;
+  display: flex;
+  padding: 0.4rem;
+  align-items: center;
+  gap: 2rem;
+}

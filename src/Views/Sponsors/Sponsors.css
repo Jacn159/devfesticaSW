@@ -13,12 +13,12 @@
   margin-top: 2rem;
   text-align: center;
   color: #c0c2c5;
+  margin-bottom: 2rem;
 }
 .sponsors__container {
-  display: flex;
+  display: flex !important;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  margin-top: 5rem;
 }
