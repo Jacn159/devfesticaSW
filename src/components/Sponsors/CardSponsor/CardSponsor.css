@@ -31,3 +31,9 @@
   border: 1px solid #88b4f7;
   color: #88b4f7;
 }
+
+@media screen and (max-width: 768px){
+  .cardsponsor{
+    width: 70%;
+  }
+}

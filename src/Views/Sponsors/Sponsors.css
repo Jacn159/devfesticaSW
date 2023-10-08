@@ -22,3 +22,15 @@
   align-items: center;
   gap: 2rem;
 }
+
+@media screen and (max-width: 768px) {
+  .sponsors__container{
+    flex-direction: column;
+    width: 100%;
+  }
+  .sponsors__texto{
+    width: 80%;
+    margin: 2rem auto;
+    line-height: 22px;
+  }
+}

@@ -14,3 +14,9 @@
 .horario__final {
   color: #5c5d60;
 }
+
+@media screen and (max-width: 768px) {
+  .horario{
+    flex-direction: row;
+  }
+}

@@ -16,3 +16,10 @@ body {
   padding-top: 6rem;
   margin-top: 6rem;
 }
+
+@media screen and (max-width: 768px) {
+  .contenedor__efecto {
+    width: 100%;
+    margin: auto;
+  }
+}

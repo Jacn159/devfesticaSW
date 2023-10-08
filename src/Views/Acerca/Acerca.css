@@ -19,8 +19,8 @@
   align-items: center;
 }
 
-@media (min-width: 768px) {
-  .md\:justify-center {
-    justify-content: center;
+@media (max-width: 768px) {
+  .page-container {
+    width: 70%;
   }
 }

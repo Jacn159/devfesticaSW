@@ -12,7 +12,6 @@ const Calendario = () => {
     oficio: "Fullstack Senior, Gerente de Google",
     titulo: "Como iniciar tu StartUp",
   };
-
   return (
     <div className="calendario">
       <h1 className="calendario__titulo">Agenda</h1>
@@ -38,5 +37,4 @@ const Calendario = () => {
     </div>
   );
 };
-
 export default Calendario;

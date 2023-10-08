@@ -74,3 +74,17 @@
   color: #5c5d60;
   transition: 0.3s ease-in-out;
 }
+
+@media screen and (max-width: 768px){
+  .cardspeaker__container {
+   width: 100%;display: flex;
+   align-items: center;
+  }
+  .cardspeaker{
+    width: 100%;
+    align-items: center;
+  }
+  .cardspeaker__container__imagen{
+    margin: auto;
+  }
+}

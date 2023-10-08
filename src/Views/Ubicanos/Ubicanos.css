@@ -6,19 +6,24 @@
   flex-direction: column;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   /* Estilos para pantallas medianas y más grandes (md y superior) */
-  .container {
-    align-items: center; /* md:items-center en Tailwind CSS */
+
+  .ubicacion__container {
+    width: 80%;
+  }
+  .ubicacion {
+    width: 70%;
+
   }
 }
 
 /* Efectos de animación */
-.reveal {
+/* .reveal {
   opacity: 0;
   transform: translateY(20px);
   transition: opacity 500ms linear 0s, transform 500ms linear 0s;
-}
+} */
 
 .fade-bottom.active {
   opacity: 1;

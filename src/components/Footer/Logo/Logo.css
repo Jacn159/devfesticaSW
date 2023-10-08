@@ -8,3 +8,10 @@
   font-size: 0.8rem;
   opacity: 0.6;
 }
+@media screen and (max-width: 768px) {
+  .logo__imagen{
+    width: 100%;
+  }.logo__texto{
+    line-height: 1rem;
+  }
+}

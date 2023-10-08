@@ -20,3 +20,13 @@
   align-items: center;
   scale: 1.5;
 }
+@media screen and (max-width: 768px) {
+  .redes__titulo {
+    font-size: 1rem;
+  }
+  .redes__container {
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+}

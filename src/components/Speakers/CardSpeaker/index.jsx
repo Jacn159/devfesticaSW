@@ -1,12 +1,15 @@
 import "./CardSpeaker.css";
 import { FaXTwitter } from "react-icons/fa6";
-const CardSpeaker = () => {
+const CardSpeaker = ({
+  speaker = "Speaker",
+  imagen = "https://github.com/aalvaropc.png",
+}) => {
   return (
     <div className="cardspeaker">
       <div className="cardspeaker__container">
         <div className="cardspeaker__container__imagen">
           <img
-            src="https://github.com/aalvaropc.png"
+            src={imagen}
             alt="Imagen del orador"
             className="cardspeaker__container__imagen__speaker"
           />
@@ -17,7 +20,7 @@ const CardSpeaker = () => {
       </div>
 
       <div className="cardspeaker__texto">
-        <h1 className="cardspeaker__texto__nombre">Alvaro Peña</h1>
+        <h1 className="cardspeaker__texto__nombre">{speaker}</h1>
         <h2 className="cardspeaker__texto__puesto">Desarrollador</h2>
         <p className="cardspeaker__texto__descripcion">
           Ministry of Digital Transformation of Ukraine
