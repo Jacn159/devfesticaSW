@@ -1,5 +1,5 @@
-.width__img {
-  width: 40%;
+/* .width__img {
+  width: 85%;
 }
 
 
@@ -9,4 +9,19 @@
     margin: auto;
   }
 }
+ */
+.width__img {
+  width: 85%;
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  border-radius: 50%;
+}
 
+@media (max-width: 768px) {
+  .md__img {
+    width: 100px;
+    margin: auto; /* Esto centra horizontalmente para pantallas pequeñas */
+    display: block; /* Asegura que la imagen ocupe todo el ancho disponible */
+  }
+}

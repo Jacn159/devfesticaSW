@@ -26,8 +26,6 @@ function App() {
     { id: "lugar", componente: <Ubicanos /> },
   ];
 
-
-
   return (
     <>
       <Principal />

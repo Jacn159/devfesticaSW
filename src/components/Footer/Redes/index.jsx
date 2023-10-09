@@ -28,7 +28,7 @@ const Redes = () => {
         >
           <AiFillLinkedin color="white"></AiFillLinkedin>
         </a>
-        <a href="" className="redes__container__item">
+        <a href="https://twitter.com/GDGICA" className="redes__container__item">
           <FaSquareXTwitter color="white"></FaSquareXTwitter>
         </a>
       </div>

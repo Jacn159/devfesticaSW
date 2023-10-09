@@ -7,6 +7,7 @@
   line-height: 1.5rem;
   font-size: 0.8rem;
   opacity: 0.6;
+  text-align: justify;
 }
 @media screen and (max-width: 768px) {
   .logo__imagen{

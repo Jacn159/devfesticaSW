@@ -42,7 +42,7 @@ const Header = () => {
         }`}
       >
         <img
-          src="./img/logo.svg"
+          src="./img/LogoDevBlancomm.png"
           alt=""
           className="navegador__logo"
           onClick={redirectToInicio}

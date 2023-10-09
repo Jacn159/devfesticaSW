@@ -8,7 +8,9 @@ function Acerca() {
     <div className="page-container">
       <h1 className="acerca__titulo">Acerca</h1>
         <Grid>
+          <div className="centered-image">
           <Image />
+        </div>
           <div className="flex flex-col md:justify-center">
             <Text />
           </div>
