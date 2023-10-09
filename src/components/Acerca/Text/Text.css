@@ -18,3 +18,8 @@
 .mt__8 {
   margin-top: 2rem/* 32px */;
 }
+@media screen and (max-width: 768px) {
+  .textos{
+    text-align: center;
+  }
+}

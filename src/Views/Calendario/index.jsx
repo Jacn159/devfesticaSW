@@ -1,40 +1,40 @@
 import React from "react";
 import TarjetasHorario from "../../components/Calendario/TarjetasHorario";
 import "./Calendario.css";
+import calendarioData from "../../data/sessions.json"; // Asegúrate de proporcionar la ruta correcta al archivo JSON
 
 const Calendario = () => {
-  // Objeto JSON con los datos que deseas enviar
-  const datosTarjeta = {
-    inicio: "09:00",
-    final: "09:15",
-    imagen: "https://github.com/aalvaropc.png",
-    nombre: "Alvaro Peña",
-    oficio: "Fullstack Senior, Gerente de Google",
-    titulo: "Como iniciar tu StartUp",
-  };
+  const transformedSessions = calendarioData.sessions.map((session) => {
+    // Aquí realizas la transformación de cada sesión
+    const inicio = session.session_start_time;
+    const final = `${session.session_total_time}`;
+    const imagen = session.speaker_image;
+    const nombre = session.speaker_name;
+    const oficio = session.speaker_desc;
+    const titulo = session.session_title;
+
+    // Devuelves la sesión transformada en la estructura deseada
+    return {
+      inicio,
+      final,
+      imagen,
+      nombre,
+      oficio,
+      titulo,
+    };
+  });
+
   return (
     <div className="calendario">
       <h1 className="calendario__titulo">Agenda</h1>
       <div className="calendario__container">
-        {/* Pasa los datos como una prop llamada 'datos' */}
-        <TarjetasHorario datos={datosTarjeta}></TarjetasHorario>
-        <TarjetasHorario
-          cantidad={2}
-          datos={datosTarjeta}
-          datos2={datosTarjeta}
-          datos3={datosTarjeta}
-        ></TarjetasHorario>
-        <TarjetasHorario
-          cantidad={1}
-          datos2={datosTarjeta}
-          datos={datosTarjeta}
-        ></TarjetasHorario>
-        <TarjetasHorario datos={datosTarjeta}></TarjetasHorario>
-        <TarjetasHorario datos={datosTarjeta}></TarjetasHorario>
-        <TarjetasHorario datos={datosTarjeta}></TarjetasHorario>
-        <TarjetasHorario datos={datosTarjeta}></TarjetasHorario>
+        {/* Utiliza .map() para crear TarjetasHorario para cada sesión transformada */}
+        {transformedSessions.map((session, index) => (
+          <TarjetasHorario key={index} datos={session} />
+        ))}
       </div>
     </div>
   );
 };
+
 export default Calendario;

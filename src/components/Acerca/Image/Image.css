@@ -3,9 +3,10 @@
 }
 
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .md__img {
-    width: 250px;
+    width: 100px;
+    margin: auto;
   }
 }
 

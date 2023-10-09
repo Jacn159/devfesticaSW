@@ -1,26 +1,32 @@
-import "./Text.css"
+import React from "react";
+import "./Text.css";
 
 const Text = () => {
   return (
     <div>
-      <div className="">
+      <div className="textos">
         <h3 className="custom__text">
-        Every day millions of Ukrainians fight for their lives because of Russian invasion
+          DevFest Ica - Uniendo a los Enthusiastas de la Tecnología
         </h3>
         <p className="custom__text__opacity">
-        Volunteers, individuals and organizations combine their efforts to provide support, give shelter to refugees and raise funds for those in need.
-      </p>
+          Únete a nosotros el 2 de diciembre para un día de inspiración,
+          innovación y colaboración. DevFest Ica reúne a entusiastas de la
+          tecnología de todo el mundo para celebrar la tecnología y compartir
+          conocimientos.
+        </p>
       </div>
-      <div className="mt__8">
+      <div className="mt__8 textos">
         <h3 className="custom__text">
-        Uniting the global tech community to support Ukraine
-      </h3>
-      <p className="custom__text__opacity">
-        Google Developer Groups in Ukraine came together to organize DevFest for Ukraine — a global online tech conference to share a passion for technology with international community and raise funds for Ukraine.
-      </p>
+          Celebrando la Tecnología y la Comunidad Global
+        </h3>
+        <p className="custom__text__opacity">
+          En DevFest Ica, celebramos la pasión por la tecnología y la
+          colaboración global. Únete a esta experiencia única y sé parte de una
+          comunidad global de entusiastas de la tecnología.
+        </p>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Text
+export default Text;

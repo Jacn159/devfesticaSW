@@ -1,14 +1,28 @@
+import React from "react";
 import CardSpeaker from "../../components/Speakers/CardSpeaker";
 import "./Speakers.css";
+
+// Importa los datos JSON aquí
+import speakersData from "../../data/speakers.json"; // Asegúrate de proporcionar la ruta correcta al archivo JSON
+
 const Speakers = () => {
+  // Filtra las sesiones que deseas mostrar en función de tus props
+  const speakersToDisplay = speakersData.speakers.filter((speaker) => {
+    return true; // Muestra todos los oradores
+  });
+
   return (
     <div className="speakers">
       <h1 className="speakers__titulo">Speakers</h1>
       <div className="speakers__container">
-        <CardSpeaker speaker={"Pepe Lucho"} imagen={"https://github.com/Jacn159.png"}></CardSpeaker>
-        <CardSpeaker speaker={"Pepe Lucho"} ></CardSpeaker>
-        <CardSpeaker speaker={"Pepe Lucho"}></CardSpeaker>
-        <CardSpeaker ></CardSpeaker>
+        {speakersToDisplay.map((speaker) => (
+          <CardSpeaker
+            key={speaker.speaker_image}
+            speaker={speaker.speaker_name}
+            imagen={speaker.speaker_image}
+            speaker_desc={speaker.speaker_desc}
+          ></CardSpeaker>
+        ))}
       </div>
     </div>
   );

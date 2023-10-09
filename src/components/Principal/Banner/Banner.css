@@ -105,3 +105,44 @@
 .banner__buttons:hover .banner__buttons__item--second {
   transform: translateX(-20px); /* Mueve ligeramente hacia la izquierda */
 }
+
+@media screen and (max-width: 768px) {
+  .banner__title {
+    font-size: 5.5rem;
+    text-wrap: wrap;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 5rem;
+  }
+  .banner__text {
+    text-wrap: wrap;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    line-height: 1.5rem;
+  }
+  .banner {
+    scale: 1;
+  }
+  .banner__buttons__item--first {
+    top: 0;
+    left:15rem;
+  }
+  .banner__buttons__item--second {
+    top: 10rem;
+    left: 5rem;
+  }
+  .banner__buttons__item__efect {
+    scale: 1;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 28rem;
+
+  }
+
+  .banner__buttons__item__efect--third {
+    width: 100%;
+    font-size: 1rem;
+  }
+}

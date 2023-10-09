@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Header.css";
-
+import { AiOutlineMenu } from "react-icons/ai";
 const Header = () => {
   const lista = [
     { nombre: "Acerca", direccion: "#acerca" },
@@ -8,6 +8,7 @@ const Header = () => {
     { nombre: "Calendario", direccion: "#calendario" },
     { nombre: "Lugar", direccion: "#lugar" },
   ];
+  const [hamburguesa, setHamburguesa] = useState(window.innerWidth > 768);
   const [isScrolled, setIsScrolled] = useState(false);
   const redirectToInicio = () => {
     window.location.href = "#inicio";
@@ -34,7 +35,7 @@ const Header = () => {
   return (
     <>
       <nav
-        className={`navegador ${
+        className={`navegador  ${
           !isScrolled
             ? "navegador__efect--active"
             : "navegador__efect--desactive"
@@ -46,7 +47,15 @@ const Header = () => {
           className="navegador__logo"
           onClick={redirectToInicio}
         />
-        <ul className="navegador__lista">
+        <ul
+          className={`navegador__lista ${
+            window.innerWidth < 768
+              ? hamburguesa
+                ? ""
+                : "navegador__lista--desactive"
+              : ""
+          }`}
+        >
           {lista.map((dato, index) => {
             return (
               <li key={index} className="navegador__lista__item">
@@ -62,6 +71,14 @@ const Header = () => {
             </a>
           </li>
         </ul>
+        {window.innerWidth < 768 && (
+          <span
+            className="navegador__menu"
+            onClick={() => setHamburguesa(!hamburguesa)}
+          >
+            <AiOutlineMenu></AiOutlineMenu>
+          </span>
+        )}
       </nav>
       {isScrolled ? (
         <div className="filtro__header--active"></div>
