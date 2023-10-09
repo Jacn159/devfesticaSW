@@ -22,7 +22,7 @@ function App() {
     { id: "acerca", componente: <Acerca /> },
     { id: "speakers", componente: <Speakers /> },
     { id: "calendario", componente: <Calendario /> },
-    // { id: "sponsors", componente: <Sponsors /> },
+    { id: "sponsors", componente: <Sponsors /> },
     { id: "lugar", componente: <Ubicanos /> },
   ];
 

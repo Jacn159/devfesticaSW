@@ -1,15 +1,15 @@
 import "./CardSponsor.css";
-const CardSponsor = () => {
+const CardSponsor = ({name, link, imagen}) => {
   return (
     <div className="cardsponsor">
       <a
-        href="https://developers.google.com/community/gdg?hl=es-419"
+        href={link}
         className="cardsponsor__click"
         target="_blank"
       >
-      <img src="./img/descargar.svg" alt="" className="cardsponsor__imagen" />
+      <img src={imagen} alt="" className="cardsponsor__imagen" />
       </a>
-      <div className="cardsponsor__type">General</div>
+      <div className="cardsponsor__type">{name}</div>
     </div>
   );
 };

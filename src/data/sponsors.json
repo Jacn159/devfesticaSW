@@ -1,0 +1,24 @@
+{
+  "sponsors": [
+    {
+      "name": "GDG",
+      "link": "https://gdg.community.dev/gdg-ica/",
+      "image": "https://seeklogo.com/images/G/google-developers-logo-F8BF3155AC-seeklogo.com.png"
+    },
+    {
+      "name": "Github",
+      "link": "https://github.com/",
+      "image": "https://cdn-icons-png.flaticon.com/512/25/25231.png"
+    },
+    {
+      "name": "Jetbrains",
+      "link": "https://www.jetbrains.com/es-es/",
+      "image": "https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.png"
+    },
+    {
+      "name": "Google",
+      "link": "https://www.google.com/",
+      "image": "https://assets.stickpng.com/thumbs/5a951939c4ffc33e8c148af2.png"
+    }
+  ]
+}

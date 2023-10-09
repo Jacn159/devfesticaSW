@@ -7,9 +7,8 @@
   position: relative;
 }
 .cardsponsor__click {
-  /* background-color: red; */
   margin: auto;
-  padding: 5rem 2rem;
+  padding: 0rem 0rem;
   border-radius: 1rem;
 }
 .cardsponsor__imagen {
