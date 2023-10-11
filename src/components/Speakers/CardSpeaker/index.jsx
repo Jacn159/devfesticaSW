@@ -1,5 +1,6 @@
 import "./CardSpeaker.css";
-import { FaXTwitter } from "react-icons/fa6";
+import { AiOutlineGoogle } from "react-icons/ai";
+
 const CardSpeaker = ({ speaker, imagen, speaker_desc }) => {
   return (
     <div className="cardspeaker">
@@ -12,7 +13,7 @@ const CardSpeaker = ({ speaker, imagen, speaker_desc }) => {
           />
         </div>
         <span className="cardspeaker__container__imagen__icon">
-          <FaXTwitter color="white"></FaXTwitter>
+          <AiOutlineGoogle color="white"></AiOutlineGoogle>
         </span>
       </div>
 
