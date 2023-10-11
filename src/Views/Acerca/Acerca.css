@@ -96,6 +96,12 @@
 
 @media (max-width: 768px) {
   .page-container {
-    width: 70%;
+    width: 90%;
   }
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+
 }
