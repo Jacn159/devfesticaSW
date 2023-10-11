@@ -6,6 +6,7 @@ const Header = () => {
     { nombre: "Acerca", direccion: "#acerca" },
     { nombre: "Speakers", direccion: "#speakers" },
     // { nombre: "Calendario", direccion: "#calendario" },
+    { nombre: "Sponsors", direccion: "#sponsors" },
     { nombre: "Lugar", direccion: "#lugar" },
   ];
   const [hamburguesa, setHamburguesa] = useState(window.innerWidth > 768);
@@ -66,8 +67,8 @@ const Header = () => {
             );
           })}
           <li className="navegador__lista__item--active">
-            <a href="#sponsors" className="navegador__lista__item--active__a">
-              Sponsors
+            <a href="https://www.eventbrite.com/e/entradas-devfest-ica-718100236137" target="_blank" className="navegador__lista__item--active__a">
+              Registrate
             </a>
           </li>
         </ul>
