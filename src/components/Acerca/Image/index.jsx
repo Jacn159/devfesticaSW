@@ -1,7 +1,9 @@
-import "./Image.css"
+import "./Image.css";
 
 const Image = () => {
-  return <img src="../../../../public/img/gdgica.png" className="width__img md__img" alt="gdglogo" />;
-}
+  return (
+    <img src="./img/gdgica.png" className="width__img md__img" alt="GDG Ica" />
+  );
+};
 
-export default Image
+export default Image;
