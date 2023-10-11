@@ -6,7 +6,7 @@ const Text = () => {
     <div>
       <div className="textos">
         <h3 className="custom__text">
-          DevFest Ica - Uniendo a los Enthusiastas de la Tecnología
+          DevFest Ica - Uniendo a los Entusiastas de la Tecnología
         </h3>
         <p className="custom__text__opacity">
           Únete a nosotros el 2 de diciembre para un día de inspiración,
