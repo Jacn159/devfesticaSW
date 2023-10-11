@@ -13,7 +13,9 @@ const Banner = () => {
         <span className="banner__buttons__item--second">Tecnología</span>
         <div className="banner__buttons__item__efect">
           <span className="banner__buttons__item__efect--third">
-            Mira como es
+            <a href="https://www.eventbrite.com/e/entradas-devfest-ica-718100236137" target="_blank">
+              Regístrate
+            </a>
           </span>
         </div>
       </div>
