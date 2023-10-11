@@ -1,5 +1,5 @@
 .logo {
-  width: 30%;
+  width: 100%;
 }
 
 .logo__texto {
@@ -11,8 +11,10 @@
 }
 @media screen and (max-width: 768px) {
   .logo__imagen{
-    width: 100%;
+    width: 40%;
+    
   }.logo__texto{
     line-height: 1rem;
+    font-size: 1.0rem;
   }
 }

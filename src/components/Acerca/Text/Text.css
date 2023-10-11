@@ -23,4 +23,7 @@
   .textos{
     text-align: center;
   }
+  .custom__text{
+    width: 100%;
+  }
 }

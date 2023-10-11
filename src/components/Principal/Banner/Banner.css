@@ -110,13 +110,13 @@
   .banner__title {
     font-size: 5.5rem;
     text-wrap: wrap;
-    width: 70%;
+    width: 85%;
     margin: auto;
     margin-bottom: 5rem;
   }
   .banner__text {
     text-wrap: wrap;
-    width: 70%;
+    width: 85%;
     margin: auto;
     text-align: justify;
     line-height: 1.5rem;

@@ -1,5 +1,5 @@
 .redes {
-  width: 30%;
+  width: 100%;
 }
 .redes__titulo {
   font-size: 1.9rem;
@@ -22,7 +22,7 @@
 }
 @media screen and (max-width: 768px) {
   .redes__titulo {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
   .redes__container {
     flex-wrap: wrap;
