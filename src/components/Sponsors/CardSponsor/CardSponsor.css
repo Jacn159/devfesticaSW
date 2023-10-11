@@ -5,34 +5,41 @@
   border-radius: 1rem;
   display: flex;
   position: relative;
+  justify-content: center; /* Centrar horizontalmente dentro de .cardsponsor */
+  align-items: center; /* Centrar verticalmente dentro de .cardsponsor */
 }
+
 .cardsponsor__click {
   margin: auto;
   padding: 0rem 0rem;
   border-radius: 1rem;
 }
+
 .cardsponsor__imagen {
   width: 11rem;
   margin: auto;
   opacity: 0.4;
   transition: 0.4s ease-in-out;
 }
+
 .cardsponsor__click:hover .cardsponsor__imagen {
   opacity: 1;
 }
+
 .cardsponsor__type {
   position: absolute;
-  top: 85%;
-  left: 26%;
   background-color: #1f2023;
   padding: 0.8rem 1.8rem;
   border-radius: 5rem;
   border: 1px solid #88b4f7;
   color: #88b4f7;
+  transform: translate(-50%, -50%); /* Centrar horizontal y verticalmente */
+  top: 95%; /* Coloca el 50% desde arriba */
+  left: 50%; /* Coloca el 50% desde la izquierda */
 }
 
-@media screen and (max-width: 768px){
-  .cardsponsor{
+@media screen and (max-width: 768px) {
+  .cardsponsor {
     width: 70%;
   }
 }

@@ -5,7 +5,7 @@ const Header = () => {
   const lista = [
     { nombre: "Acerca", direccion: "#acerca" },
     { nombre: "Speakers", direccion: "#speakers" },
-    { nombre: "Calendario", direccion: "#calendario" },
+    // { nombre: "Calendario", direccion: "#calendario" },
     { nombre: "Lugar", direccion: "#lugar" },
   ];
   const [hamburguesa, setHamburguesa] = useState(window.innerWidth > 768);
