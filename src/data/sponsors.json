@@ -9,6 +9,11 @@
       "name": "Google",
       "link": "https://www.google.com/",
       "image": "https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-512.png"
+    },
+    {
+      "name": "Github",
+      "link": "https://github.com/",
+      "image": "https://cdn-icons-png.flaticon.com/512/25/25231.png"
     }
   ]
 }

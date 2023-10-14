@@ -4,9 +4,9 @@ const Resumen = () => {
     <div className="resumen">
       <h1 className="resumen__titulo">Resumen del evento</h1>
       <ol className="resumen__lista">
-        <li className="resumen__lista__item">Lugar: Local Central - Universidad Nacional San Luis Gonzaga</li>
+        <li className="resumen__lista__item">Lugar: Calle Bolivar N° 232, Ica, Perú (Local Central)</li>
         <li className="resumen__lista__item">Fecha: 02 de Diciembre 2023 </li>
-        <li className="resumen__lista__item">Hora: 09:00 am</li>
+        <li className="resumen__lista__item">Hora: 09:30 am</li>
       </ol>
     </div>
   );

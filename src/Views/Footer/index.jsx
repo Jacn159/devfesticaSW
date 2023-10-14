@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <>
       <div className="mensajeprefooter">
-        <h1 className="mensajeprefooter__titulo">Los esperamos!!</h1>
+        <h1 className="mensajeprefooter__titulo">¡Los esperamos!</h1>
       </div>
       <footer className="footer">
         <Logo></Logo>
