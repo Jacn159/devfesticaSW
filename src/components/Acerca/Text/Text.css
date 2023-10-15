@@ -22,8 +22,10 @@
 @media screen and (max-width: 768px) {
   .textos{
     text-align: center;
+    width: 100%;
   }
   .custom__text{
     width: 100%;
+    /* text-align: unset; */
   }
 }

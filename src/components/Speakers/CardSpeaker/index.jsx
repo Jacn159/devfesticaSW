@@ -1,7 +1,9 @@
 import "./CardSpeaker.css";
-import { AiOutlineGoogle } from "react-icons/ai";
+import { MdPlace } from "react-icons/md";
+import { BiSolidBeenHere } from "react-icons/bi";
+import { FaLaptopCode } from "react-icons/fa";
 
-const CardSpeaker = ({ speaker, imagen, speaker_desc }) => {
+const CardSpeaker = ({ speaker, imagen, speaker_desc, modality }) => {
   return (
     <div className="cardspeaker">
       <div className="cardspeaker__container">
@@ -13,7 +15,11 @@ const CardSpeaker = ({ speaker, imagen, speaker_desc }) => {
           />
         </div>
         <span className="cardspeaker__container__imagen__icon">
-          <AiOutlineGoogle color="white"></AiOutlineGoogle>
+          {modality == "remote" ? (
+            <FaLaptopCode color="white"></FaLaptopCode>
+          ) : (
+            <MdPlace color="white"></MdPlace>
+          )}
         </span>
       </div>
 

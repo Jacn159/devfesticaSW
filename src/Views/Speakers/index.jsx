@@ -3,7 +3,7 @@ import CardSpeaker from "../../components/Speakers/CardSpeaker";
 import "./Speakers.css";
 
 // Importa los datos JSON aquí
-import speakersData from "../../data/speakers.json"; // Asegúrate de proporcionar la ruta correcta al archivo JSON
+import speakersData from "../../data/speakers.json";
 
 const Speakers = () => {
   // Filtra las sesiones que deseas mostrar en función de tus props
@@ -21,6 +21,7 @@ const Speakers = () => {
             speaker={speaker.speaker_name}
             imagen={speaker.speaker_image}
             speaker_desc={speaker.speaker_desc}
+            modality={speaker.modality}
           ></CardSpeaker>
         ))}
       </div>

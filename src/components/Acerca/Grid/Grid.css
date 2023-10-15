@@ -1,7 +1,7 @@
 /* Grid Container */
 .grid__container {
-  width: 83.33333%; /* lg:w-10/12 en Tailwind */
-  max-width: 66.66667%; /* xl:w-8/12 en Tailwind */
+  width: 90%; /* lg:w-10/12 en Tailwind */
+  max-width: 90%; /* xl:w-8/12 en Tailwind */
   display: grid;
   gap: 2rem; /* gap-8 en Tailwind */
 }
@@ -10,6 +10,7 @@
 @media (min-width: 768px) {
   .grid__container {
     grid-template-columns: max-content 1fr;
+    max-width: 88%;
     gap: 4rem; /* md:gap-16 en Tailwind */
   }
 }
