@@ -9,10 +9,6 @@ const Sponsors = () => {
     <>
       <div className="sponsors">
         <h1 className="sponsors__titulo">Sponsors</h1>
-        <p className="sponsors__texto">
-          {/* Estas maravillosas organizaciones donaron más allá para ayudarnos a
-          alcanzar nuestros objetivos de donación. */}
-        </p>
         <div className="sponsors__container">
           {sponsorsToDisplay.map((sponsors) => (
             <CardSponsor

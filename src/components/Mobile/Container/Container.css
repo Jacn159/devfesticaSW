@@ -1,4 +1,4 @@
-.containerr {
+.container {
  animation: reveal 1s ease-in-out forwards, fade-bottom 1s ease-in-out forwards;
 }
 
@@ -24,31 +24,31 @@
  animation-play-state: running;
 }
 
-.containerr {
+.container {
   width: 91%;
 }
 @media (min-width: 640px) {
-  .containerr {
+  .container {
     max-width: 640px;
   }
 }
 @media (min-width: 768px) {
-  .containerr {
+  .container {
     max-width: 768px;
   }
 }
 @media (min-width: 1024px) {
-  .containerr {
+  .container {
     max-width: 1024px;
   }
 }
 @media (min-width: 1280px) {
-  .containerr {
+  .container {
     max-width: 1280px;
   }
 }
 @media (min-width: 1536px) {
-  .containerr {
+  .container {
     max-width: 1536px;
   }
 }

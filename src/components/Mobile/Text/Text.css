@@ -1,31 +1,35 @@
 /* Estilos para el título */
-.custom__textt {
-  font-size: 1.5rem; /* Equivalente a text-2xl en Tailwind */
+.custom__t {
+  font-size: 3rem; /* Equivalente a text-2xl en Tailwind */
   line-height: 1em;
   color: white;
   font-family: "Product Sans", sans-serif;
+  text-align: center;
 }
 
 /* Estilos para el margen superior */
-.custom__text__opacityy {
+.custom__text__opacity {
   margin-top: 1rem; /* Equivalente a mt-4 en Tailwind */
   opacity: 0.7; /* Equivalente a opacity-70 en Tailwind */
   line-height: 1.3em;
   color: white;
   font-family: "Product Sans", sans-serif;
-  text-align: justify;
+  text-align: center;
 }
-
+.textos{
+  text-align: center;
+}
 .mt__8 {
   margin-top: 2rem/* 32px */;
 }
 @media screen and (max-width: 768px) {
-  .textoss{
+  .textos{
     text-align: center;
     width: 100%;
   }
-  .custom__textt{
+  .custom__t{
     width: 100%;
-    /* text-align: unset; */
+    text-align: center;
+    font-size: 2.5rem;
   }
 }

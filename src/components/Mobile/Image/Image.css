@@ -1,17 +1,17 @@
-.width__imgg {
-  width: 85%;
+.width__img {
+  width: 300px;
+  height: 500px;
   display: flex;
   justify-content: center; /* Centra horizontalmente */
   align-items: center; /* Centra verticalmente */
-  border-radius: 50%;
+  border-radius: 5%;
+  border: 3px solid white;
 }
 
 @media (max-width: 768px) {
-  .md__imgg {
-    width: 200px;
+  .md__img {
+    /* width: 100px; */
     margin: auto; /* Esto centra horizontalmente para pantallas pequeñas */
     display: block; /* Asegura que la imagen ocupe todo el ancho disponible */
-    height: 190px;
   }
-
 }
