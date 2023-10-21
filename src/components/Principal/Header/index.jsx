@@ -7,6 +7,7 @@ const Header = () => {
     { nombre: "Speakers", direccion: "#speakers" },
     // { nombre: "Calendario", direccion: "#calendario" },
     { nombre: "Sponsors", direccion: "#sponsors" },
+    { nombre: "App", direccion: "#mobile" },
     { nombre: "Lugar", direccion: "#lugar" },
   ];
   const [hamburguesa, setHamburguesa] = useState(window.innerWidth > 768);
