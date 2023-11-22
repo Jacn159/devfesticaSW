@@ -18,37 +18,37 @@
     {
       "name": "DMC",
       "link": "https://dmc.pe/",
-      "image": "../../public/sponsors/DMC.png"
+      "image": "sponsors/DMC.png"
     },
     {
       "name": "CCITI",
       "link": "https://camaraica.org.pe/",
-      "image": "../../public/sponsors/camara_comercio.png"
+      "image": "sponsors/camara_comercio.png"
     },
     {
       "name": "Systematic",
       "link": "https://systematic.edu.pe/",
-      "image": "../../public/sponsors/systematic.jpg"
-    }, 
+      "image": "sponsors/systematic.jpg"
+    },
     {
       "name": "Peñotti",
       "link": "https://www.facebook.com/PenonettiPizzeria/",
-      "image": "../../public/sponsors/peñotti.png"
+      "image": "sponsors/peñotti.png"
     },
     {
       "name": "CompuPlanet",
       "link": "https://www.facebook.com/Compuplanetica/",
-      "image": "../../public/sponsors/compuplanet.png"
+      "image": "sponsors/compuplanet.png"
     },
     {
       "name": "JCM",
       "link": "http://consultardocumentos.jcm.com.pe",
-      "image": "../../public/sponsors/jcm.png"
-    }, 
+      "image": "sponsors/jcm.png"
+    },
     {
       "name": "Geunica",
       "link": "https://www.facebook.com/academiageunica",
-      "image": "../../public/sponsors/Geunica.png"
+      "image": "sponsors/Geunica.png"
     }
   ]
 }
